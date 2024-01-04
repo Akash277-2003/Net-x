@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-image: url(1.jpg);
+			background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+
+        h1 {
+            margin-left: 70px;
+            color: black;
+            font-size: 70px;
+        }
+
+        h1 span {
+            display: table-cell;
+            margin: 10px; /* Adjust the margin for smaller screens */
+            padding: 1rem; /* Adjust the padding for smaller screens */
+            animation: animate 1.8s ease infinite;
+        }
+
+        h1 span:nth-child(1) {
+            animation-delay: 0s;
+        }
+
+        h1 span:nth-child(2) {
+            animation-delay: 0.3s;
+        }
+
+        h1 span:nth-child(3) {
+            animation-delay: 0.6s;
+        }
+
+        h1 span:nth-child(4) {
+            animation-delay: 0.9s;
+        }
+
+        h1 span:nth-child(5) {
+            animation-delay: 1.2s;
+        }
+
+        h1 span:nth-child(6) {
+            animation-delay: 1.5s;
+        }
+
+        @keyframes animate {
+
+            0%,
+            100% {
+                color: #fff;
+            }
+        }
+        
+        h2{
+            color: #E333FF;
+            font-size: 30px;
+            margin-left: 60px;
+        }
+</style>
+</head>
+<body>
+    <h1><span></span>
+        <span>ℕ</span>
+        <span>𝔼</span>
+        <span>𝕋</span>
+        <span>-</span>
+        <span>𝕏</span>
+    </h1>
+    <h2>Institute Of Information Technology</h2>
+    <script>
+  setTimeout(function() {
+        window.location.href = "Login or singup.php";
+    },2300 );
+    </script>
+</body>
+</html>
